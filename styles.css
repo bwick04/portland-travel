@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: "Cabin";
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+.title {
+    font-size: 14px;
+}
+
+#hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/portland-pic.webp");
+    background-size: cover;
+    height: 250px;
+}
+
+#hero-title {
+    color: #edede9;
+    background-color: #d5bdaf;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+
+#hero-subtitle {
+    color: #edede9;
+    background-color: #d5bdaf;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    text-shadow: 1px 1px 1px black;
+}
+
+#activities-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #d6ccc2;
+}
+
+#activities-section img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+#activities-title {
+    margin: 20px;
+}
+
+#activities {
+    display: flex;
+    font-size: 12px;
+}
+
+#activities > div {
+    margin: 0px 30px;
+    flex-basis: 100%;
+}
+
+#guide-section {
+    display: flex;
+    align-items: center;
+    margin: 30px auto;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #d5bdaf;
+}
+
+#guide-section h3 {
+    font-size: 20px;
+}
+
+#guide-section p {
+    font-size: 15px;
+}
+
+#guide-section h4 {
+    font-size: 18px;
+}
+
+#guide-section img {
+    height: 150px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+#guide-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
